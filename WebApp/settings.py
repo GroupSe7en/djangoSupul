@@ -125,3 +125,5 @@ STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'#crispy forms bootstrap version
 
 LOGIN_REDIRECT_URL = 'requester-home'#login redirect url
+
+LOGIN_URL = 'login'#login url
